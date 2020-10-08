@@ -1,7 +1,7 @@
 package ru.ulmaridae.ch6springinaction.data;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import ru.ulmaridae.ch6springinaction.Taco;
 
-public interface TacoRepository extends CrudRepository<Taco, Long> {
+public interface TacoRepository extends PagingAndSortingRepository<Taco, Long> {
 }
